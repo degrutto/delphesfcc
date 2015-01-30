@@ -1,1 +1,0 @@
-/afs/cern.ch/work/d/degrutto/private/FCCtutorial/FCC/delphesfcc/build/example/CMakeFiles/delphesfcc-simpleWrite.dir
