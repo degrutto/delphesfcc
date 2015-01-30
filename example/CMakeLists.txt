@@ -1,6 +1,10 @@
+include_directories(
+        ${DELPHES_DIR}	
+)
 
-add_executable(analysiscpp-read read.cc)
+add_executable(delphesfcc-simpleWrite simplewriteWithDelphes.cc)
 
-target_link_libraries(analysiscpp-read utilities datamodel albers)
+target_link_libraries(delphesfcc-simpleWrite utilities datamodel albers ${DELPHES_LIBRARIES})
 
-install(TARGETS analysiscpp-read DESTINATION bin)
+
+install(TARGETS delphesfcc-simpleWrite DESTINATION bin)
